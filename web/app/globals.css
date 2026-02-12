@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* .star {
+  position: absolute;
+  border-radius: 50%;
+  animation: twinkle 6s infinite ease-in-out;
+}
+
+.small { width: 3px; height: 3px; }
+.medium { width: 5px; height: 5px; }
+.large { width: 8px; height: 8px; }
+
+.white {
+  background: radial-gradient(circle, #ffffff, #e5e7eb, transparent);
+}
+.blue {
+  background: radial-gradient(circle, #ffffff, #60a5fa, transparent);
+}
+.pink {
+  background: radial-gradient(circle, #ffffff, #f472b6, transparent);
+}
+
+@keyframes twinkle {
+  0%, 100% { transform: scale(1); opacity: 0.7; }
+  50% { transform: scale(1.5); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+} */
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease forwards;
+}
